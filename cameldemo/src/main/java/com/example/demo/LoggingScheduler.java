@@ -9,7 +9,7 @@ public class LoggingScheduler extends RouteBuilder {
 	public void configure() throws Exception {
 		from("timer:Logtimer?period=10000")
 		.routeId("logging Route")
-		.log("Logging every 10 seconds");
+		.log("Hello WOrld :: Logging every 10 seconds");
 	}
 
 }

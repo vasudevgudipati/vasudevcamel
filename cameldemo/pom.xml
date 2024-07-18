@@ -12,9 +12,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>tcpdemo-service</artifactId>
+    <artifactId>cameldemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>tcpdemo-service</name>
+    <name>cameldemo</name>
     <description>Demo project for Camel on Spring Boot</description>
 
     <properties>
@@ -30,12 +30,6 @@
             <version>${camel.version}</version>
         </dependency>
         
-        <!-- Camel Netty Component -->
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-netty</artifactId>
-            <version>${camel.version}</version>
-        </dependency>
 
         <!-- Spring Boot Starter Test -->
         <dependency>
